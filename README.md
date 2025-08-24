@@ -1,133 +1,212 @@
+# 🍸 Tipsy Glass - GSAP Cocktail Experience
+
 <div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=AW1yfBKRMKc" target="_blank">
-      <img src="public/readme/hero.png" alt="Project Banner">
-    </a>
-  <br />
-
-   <div>
-    <img src="https://img.shields.io/badge/-React-blue?style=for-the-badge&logo=react&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  
+  ![Tipsy Glass Banner](public/readme/hero.png)
+  
+  <p align="center">
+    <strong>An immersive cocktail website powered by cutting-edge GSAP animations</strong>
+  </p>
+  
+  <div align="center">
+    <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=react&logoColor=white" />
+    <img src="https://img.shields.io/badge/GSAP-3.12.2-88CE02?style=flat-square&logo=greensock&logoColor=white" />
+    <img src="https://img.shields.io/badge/Tailwind-3.3.0-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/Vite-4.4.5-646CFF?style=flat-square&logo=vite&logoColor=white" />
   </div>
-
-  <h3 align="center">Stunning GSAP Cocktail Website</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  
+  <div align="center" style="margin-top: 20px;">
+    <a href="#-demo">🎯 Demo</a> •
+    <a href="#-features">✨ Features</a> •
+    <a href="#-installation">🚀 Setup</a> •
+    <a href="#-tech-stack">🛠️ Tech</a>
+  </div>
+  
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+---
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+## 🎯 Demo
 
-## 🚨 Tutorial
+Experience the magic of scroll-driven animations and immersive cocktail storytelling. This project showcases advanced GSAP techniques including parallax effects, scroll-triggered animations, and cinematic video synchronization.
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+> **Live Demo**: [View Project](https://tipsy-glass-gsap.vercel.app) | **Repository**: [GitHub](https://github.com/AbhijitDestro/Tipsy-glass-gsap)
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+## 🌟 What Makes This Special
 
-<a href="https://www.youtube.com/watch?v=AW1yfBKRMKc" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+Tipsy Glass isn't just another website—it's a **scroll-driven experience** that transforms how users interact with content. Every scroll reveals new animations, every section tells a story, and every interaction feels magical.
 
-## <a name="introduction">🤖 Introduction</a>
+### 🎨 Animation Highlights
 
-Build and deploy a stunning GSAP-powered cocktail website using React and Tailwind CSS—a modern, scroll-driven experience packed with advanced animations. Bring your design to life with dynamic SplitText reveals, smooth parallax scrolling, and scroll-triggered effects using GSAP’s ScrollTrigger. Lock sections in place with pinned animations, sync video playback to scroll position for cinematic storytelling, and enhance visual impact with scroll-based image masking. Create a custom animated carousel, craft seamless timeline animations across sections, and ensure a fully responsive UI that adapts beautifully across all screen sizes.
+- **Scroll-Synced Storytelling**: Video playback tied to scroll position
+- **Dynamic Text Reveals**: SplitText animations that bring typography to life
+- **Parallax Depth**: Multi-layer scrolling for immersive depth
+- **Pinned Sections**: Content that locks and transforms as you scroll
+- **Fluid Transitions**: Seamless animations between sections
 
+## ✨ Features
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+<table>
+<tr>
+<td width="50%">
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+### 🎬 **Advanced Animations**
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+- SplitText reveals for impactful typography
+- ScrollTrigger-powered timeline control
+- Smooth parallax scrolling effects
+- Pinned sections with scroll interactions
+- Scroll-synced video playback
 
+</td>
+<td width="50%">
 
-- **[GSAP](https://gsap.com/)** is a powerful JavaScript animation library used in this project to create dynamic, scroll-driven visuals. Features include SplitText animations for bold text reveals, ScrollTrigger for timeline control, parallax scrolling, pinned sections, scroll-synced video playback, seamless multi-section timelines, image masking effects, and a fully custom animated carousel.
+### 🎨 **Visual Effects**
 
-- **[React](https://react.dev/)** is a declarative JavaScript library for building interactive UIs. It provides the component structure for modular development, allowing smooth integration of GSAP animations, reusable logic for scroll behavior, and support for responsive layout and state-driven UI features like carousels and video sections.
+- Image masking with scroll triggers
+- Custom animated carousel
+- Seamless multi-section timelines
+- Responsive animation scaling
+- Optimized performance
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
+</td>
+</tr>
+</table>
 
-- **[Vite](https://vitejs.dev/)** is a lightning-fast build tool and development server that powers this project’s workflow. It enables instant hot module replacement, fast startup, and optimized production builds—ideal for an animation-heavy React site with smooth, real-time development feedback and minimal config.
+## 🛠️ Tech Stack
 
-## <a name="features">🔋 Features</a>
+<div align="center">
 
-👉 **SplitText Animations**: Create impactful text reveals using GSAP’s SplitText for dynamic intros and section highlights.
+| Technology       | Purpose           | Version |
+| ---------------- | ----------------- | ------- |
+| **React**        | UI Framework      | 18.2.0  |
+| **GSAP**         | Animation Library | 3.12.2  |
+| **Tailwind CSS** | Styling           | 3.3.0   |
+| **Vite**         | Build Tool        | 4.4.5   |
 
-👉 **ScrollTrigger Effects**: Power scroll-based animations and timeline control with GSAP’s ScrollTrigger.
+</div>
 
-👉 **Parallax Scrolling**: Add immersive depth with smooth parallax effects that respond to user scroll.
+### Why These Technologies?
 
-👉 **Pinned Sections**: Lock sections in view while animating content for engaging scroll experiences.
+- **GSAP**: Industry-leading animation library with powerful ScrollTrigger capabilities
+- **React**: Component-based architecture perfect for modular animation systems
+- **Tailwind CSS**: Utility-first approach for rapid, responsive design
+- **Vite**: Lightning-fast development with instant HMR for animation testing
 
-👉 **Scroll-Synced Video Playback**: Sync video progress with scroll position for cinematic storytelling.
+## 🚀 Installation
 
-👉 **Image Masking Effects**: Use scroll-triggered pins and masks for visually striking image transitions.
+### Prerequisites
 
-👉 **Custom Carousel**: Build a fully customized carousel with multiple navigation options and animated slides.
+Ensure you have these installed:
 
-👉 **Seamless Timeline Animations**: Craft smooth animation timelines that span across multiple sections.
-
-👉 **Responsive Design**: Ensure fluid UI and adaptive GSAP animations across all screen sizes.
-
-And many more, including enhanced security and optimized video performance!
-
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
+- [Node.js](https://nodejs.org/) (v16 or higher)
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- npm or yarn package manager
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/gsap_cocktails.git
-cd gsap_cocktails
-```
-
-**Installation**
-
-Install the project dependencies using npm:
+### Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/AbhijitDestro/Tipsy-glass-gsap.git
+
+# Navigate to project directory
+cd Tipsy-glass-gsap
+
+# Install dependencies
 npm install
-```
 
-**Running the Project**
-
-```bash
+# Start development server
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+Open [http://localhost:5173](http://localhost:5173) to view the project.
 
-## <a name="links">🔗 Assets</a>
+### Available Scripts
 
-Assets and snippets used in the project can be found in the **[Video Kit](https://jsm.dev/cocktail-kit)**.
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
+```
 
-<a href="https://jsm.dev/cocktail-kit" target="_blank">
-  <img src="public/readme/videokit.png" alt="Video Kit Banner">
-</a>
+## 📁 Project Structure
 
-## <a name="more">🚀 More</a>
+```
+tipsy-glass-gsap/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── sections/       # Page sections with animations
+│   ├── hooks/          # Custom React hooks
+│   ├── utils/          # Helper functions
+│   └── assets/         # Images, videos, fonts
+├── public/             # Static assets
+└── README.md
+```
 
-**Advance your skills with Next.js Pro Course**
+## 🎨 Animation Techniques
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+### ScrollTrigger Implementation
 
-<a href="https://jsm.dev/cocktail-nextjs" target="_blank">
-  <img src="public/readme/jsmpro.png" alt="Project Banner">
-</a>
+```javascript
+// Example: Parallax scrolling effect
+gsap.to(".parallax-element", {
+  yPercent: -50,
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".parallax-container",
+    start: "top bottom",
+    end: "bottom top",
+    scrub: true,
+  },
+});
+```
+
+### SplitText Animations
+
+```javascript
+// Example: Text reveal animation
+const splitText = new SplitText(".animated-text", { type: "chars" });
+gsap.from(splitText.chars, {
+  opacity: 0,
+  y: 100,
+  stagger: 0.02,
+  duration: 0.8,
+});
+```
+
+## 🎯 Performance Optimizations
+
+- **Lazy Loading**: Images and videos load on demand
+- **Animation Cleanup**: Proper GSAP timeline disposal
+- **Responsive Scaling**: Animations adapt to screen size
+- **Optimized Assets**: Compressed images and videos
+- **Code Splitting**: Dynamic imports for better loading
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **GSAP Team** for the incredible animation library
+- **React Team** for the robust framework
+- **Tailwind CSS** for the utility-first approach
+- **Vite Team** for the blazing-fast build tool
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/AbhijitDestro">Abhijit</a></p>
+  <p>⭐ Star this repo if you found it helpful!</p>
+</div>
