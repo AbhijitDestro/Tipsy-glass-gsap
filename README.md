@@ -37,9 +37,8 @@ Experience the magic of scroll-driven animations and immersive cocktail storytel
 Tipsy Glass isn't just another website—it's a **scroll-driven experience** that transforms how users interact with content. Every scroll reveals new animations, every section tells a story, and every interaction feels magical.
 
 ### 🎨 Animation Highlights
-
 - **Scroll-Synced Storytelling**: Video playback tied to scroll position
-- **Dynamic Text Reveals**: SplitText animations that bring typography to life
+- **Dynamic Text Reveals**: SplitText animations that bring typography to life  
 - **Parallax Depth**: Multi-layer scrolling for immersive depth
 - **Pinned Sections**: Content that locks and transforms as you scroll
 - **Fluid Transitions**: Seamless animations between sections
@@ -51,7 +50,6 @@ Tipsy Glass isn't just another website—it's a **scroll-driven experience** tha
 <td width="50%">
 
 ### 🎬 **Advanced Animations**
-
 - SplitText reveals for impactful typography
 - ScrollTrigger-powered timeline control
 - Smooth parallax scrolling effects
@@ -62,7 +60,6 @@ Tipsy Glass isn't just another website—it's a **scroll-driven experience** tha
 <td width="50%">
 
 ### 🎨 **Visual Effects**
-
 - Image masking with scroll triggers
 - Custom animated carousel
 - Seamless multi-section timelines
@@ -77,12 +74,12 @@ Tipsy Glass isn't just another website—it's a **scroll-driven experience** tha
 
 <div align="center">
 
-| Technology       | Purpose           | Version |
-| ---------------- | ----------------- | ------- |
-| **React**        | UI Framework      | 18.2.0  |
-| **GSAP**         | Animation Library | 3.12.2  |
-| **Tailwind CSS** | Styling           | 3.3.0   |
-| **Vite**         | Build Tool        | 4.4.5   |
+| Technology | Purpose | Version |
+|------------|---------|---------|
+| **React** | UI Framework | 18.2.0 |
+| **GSAP** | Animation Library | 3.12.2 |
+| **Tailwind CSS** | Styling | 3.3.0 |
+| **Vite** | Build Tool | 4.4.5 |
 
 </div>
 
@@ -96,9 +93,7 @@ Tipsy Glass isn't just another website—it's a **scroll-driven experience** tha
 ## 🚀 Installation
 
 ### Prerequisites
-
 Ensure you have these installed:
-
 - [Node.js](https://nodejs.org/) (v16 or higher)
 - [Git](https://git-scm.com/)
 - npm or yarn package manager
@@ -147,7 +142,6 @@ tipsy-glass-gsap/
 ## 🎨 Animation Techniques
 
 ### ScrollTrigger Implementation
-
 ```javascript
 // Example: Parallax scrolling effect
 gsap.to(".parallax-element", {
@@ -157,21 +151,20 @@ gsap.to(".parallax-element", {
     trigger: ".parallax-container",
     start: "top bottom",
     end: "bottom top",
-    scrub: true,
-  },
+    scrub: true
+  }
 });
 ```
 
 ### SplitText Animations
-
 ```javascript
 // Example: Text reveal animation
-const splitText = new SplitText(".animated-text", { type: "chars" });
+const splitText = new SplitText(".animated-text", {type: "chars"});
 gsap.from(splitText.chars, {
   opacity: 0,
   y: 100,
   stagger: 0.02,
-  duration: 0.8,
+  duration: 0.8
 });
 ```
 
@@ -201,12 +194,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **GSAP Team** for the incredible animation library
 - **React Team** for the robust framework
-- **Tailwind CSS** for the utility-first approach
-- **Vite Team** for the blazing-fast build tool
-
----
-
-<div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/AbhijitDestro">Abhijit</a></p>
-  <p>⭐ Star this repo if you found it helpful!</p>
-</div>
+- **Tailwind CSS** for the u
